@@ -16,7 +16,7 @@
       <div class="hiddenP">
         <div class="row frame row-eq-height">
           <div class="col-xs-4 well pFrontEnd">
-            <h2>Front-End and Back-end</h2>
+            <h2>Front-End & Back-end</h2>
             <p>
               In software architecture, there may be many layers between the hardware and end user. Each can be spoken of as having a front end and a back end. The front is an abstraction, simplifying the underlying component by providing a user-friendly interface, while the back usually handles business logic and data storage.
               In telecommunication, the front can be considered a device or service, while the back is the infrastructure that supports provision of service.
@@ -44,7 +44,7 @@
              </p>
            </div>
            <div class="col-xs-4 well pRuby">
-             <h2>ruby</h2>
+             <h2>Ruby</h2>
              <p>
                Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.
              </p>
@@ -58,115 +58,129 @@
         </div>
       </div>
 
-
-
 <!-- FORM -->
-      <form id="formOne">
+      <div class="row frame row-eq-height">
+        <div class="well col-xs-6">
+          <form id="formOne">
 
-        <div class="form-group">
-          <label for="name">Enter your name here.</label>
-          <input id="name" class="form-control" type="text">
-        </div>
+            <div class="form-group">
+              <label for="name">Enter your name here.</label>
+              <input id="name" class="form-control" type="text">
+            </div>
 
-        <p><strong>Where would you like to study?</strong></p>
-        <select class="form-control" id="city">
-          <option>Seattle</option>
-          <option>Portland</option>
-          <option>I have not decided yet</option>
-        </select>
+            <p><strong>Where would you like to study?</strong></p>
+            <select class="form-control" id="city">
+              <option>Seattle</option>
+              <option>Portland</option>
+            </select>
 
-        <p><strong>Do you have any coding experience?</strong></p>
-        <select class="form-control" id="experience">
-          <option value="yes">I have a degree</option>
-          <option value="yes">I have attendent some classes</option>
-          <option value="yes">I have learnt programming on my own</option>
-          <option value="no">I don't have any experience, but I'd love to learn how to program!</option>
-        </select>
+            <p><strong>Do you have any coding experience?</strong></p>
+            <select class="form-control" id="experience">
+              <option value="yes">I have a degree</option>
+              <option value="yes">I have attendent some classes</option>
+              <option value="yes">I have learnt programming on my own</option>
+              <option value="no">I don't have any experience, but I'd love to learn how to program!</option>
+            </select>
 
-        <p><strong>What are you interested in developing?</strong></p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="end" value="frontEnd" checked>
-            Front-End
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="end" value="backEnd">
-            Back-End
-          </label>
-        </div>
+            <p><strong>What are you interested in developing?</strong></p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="end" value="frontEnd" checked>
+                Front-End
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="end" value="backEnd">
+                Back-End
+              </label>
+            </div>
 
-        <p><strong>What sounds more appealing to you?</strong></p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language" value="cSharp" checked>
-            Internal Software
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language" value="java">
-            Android user interface
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language" value="php">
-            Website backend
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language" value="ruby">
-            Web application
-          </label>
-        </div>
+            <p><strong>What sounds more appealing to you?</strong></p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="cSharp" checked>
+                Internal Software
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="java">
+                Android user interface
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="php">
+                Website backend
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="ruby">
+                Web application
+              </label>
+            </div>
 
-        <button type="submit" class="btn btn-info btn-lg">Submit!</button>
-      </form>
+            <button type="submit" class="btn btn-info btn-lg">Submit!</button>
+          </form>
+        </div>
 
 <!-- RESULTS -->
-      <div class="well" id="result">
-        <h2><span class="name"></span>, let's see what your results are!</h2>
-        <p><span class="experienceY">We found out you have some experience</span><span class="experienceN">We found out you are striving to learn how to program</span> and you want to take your classes in <span class="cityS">Seattle</span><span class="cityP">Portland</span>.</p>
-
-        <div id="resultCss">
-          <p>So far the best match for you will be <strong>CSS and Design</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
-          <div class="alert alert-success" role="alert">
-          <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
+        <div class="col-xs-6">
+          <div class="well">
+            <h4>Some tips for future studying:</h4>
+            <ul>
+              <li>Get the basic principles of coding down</li>
+              <li>Practice a lot</li>
+              <li>Be ready to change to another language when your job inevitably does</li>
+            </ul>
           </div>
-        </div>
+          <div class="well" id="result">
+            <h2><span class="name"></span>, let's see what your results are!</h2>
+            <p><span class="experienceY">We found out you have some experience</span><span class="experienceN">We found out you are striving to learn how to program</span> and you want to take your classes in <span class="cityS">Seattle</span><span class="cityP">Portland</span>.</p>
 
-        <div id="resultCSharp">
-          <p>So far the best match for you will be <strong>C#</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
-          <div class="alert alert-success" role="alert">
-          <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
+            <div id="resultCss">
+              <p>So far the best match for you will be <strong>CSS and Design</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
+              <div class="alert alert-success" role="alert">
+              <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
+              </div>
+            </div>
+
+            <div id="resultCSharp">
+              <p>So far the best match for you will be <strong>C#</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
+              <div class="alert alert-success" role="alert">
+              <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
+              </div>
+            </div>
+
+            <div id="resultJava">
+              <p>So far the best match for you will be <strong>Java</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
+              <div class="alert alert-success" role="alert">
+              <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
+              </div>
+            </div>
+
+            <div id="resultPhp">
+              <p>So far the best match for you will be <strong>PHP</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
+              <div class="alert alert-success" role="alert">
+              <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
+              </div>
+            </div>
+
+            <div id="resultRuby">
+              <p>So far the best match for you will be <strong>Ruby</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
+              <div class="alert alert-success" role="alert">
+              <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div id="resultJava">
-          <p>So far the best match for you will be <strong>Java</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
-          <div class="alert alert-success" role="alert">
-          <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
-          </div>
-        </div>
 
-        <div id="resultPhp">
-          <p>So far the best match for you will be <strong>PHP</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
-          <div class="alert alert-success" role="alert">
-          <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
-          </div>
         </div>
-
-        <div id="resultRuby">
-          <p>So far the best match for you will be <strong>Ruby</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>
-          <div class="alert alert-success" role="alert">
-          <p><span class=name></span>, <a href="https://www.epicodus.com/">click here to learn more information about Epicodus!</a></p>
-          </div>
-        </div>
-
       </div>
+
+
 
 
     </div>

@@ -48,28 +48,22 @@ $(document).ready(function() {
   });
 
   $(".pFrontEnd").click(function(){
-    $(".pFrontEnd h2").toggle();
-    $(".pFrontEnd p").toggle();
+    $(".pFrontEnd p").fadeToggle(1000);
   });
   $(".pCSharp").click(function(){
-    $(".pCSharp h2").toggle();
-    $(".pCSharp p").toggle();
+    $(".pCSharp p").fadeToggle(1000);
   });
   $(".pJava").click(function(){
-    $(".pJava h2").toggle();
-    $(".pJava p").toggle();
+    $(".pJava p").fadeToggle(1000);
   });
   $(".pPhp").click(function(){
-    $(".pPhp h2").toggle();
-    $(".pPhp p").toggle();
+    $(".pPhp p").fadeToggle(1000);
   });
   $(".pRuby").click(function(){
-    $(".pRuby h2").toggle();
-    $(".pRuby p").toggle();
+    $(".pRuby p").fadeToggle(1000);
   });
   $(".Ccss").click(function(){
-    $(".Ccss h2").toggle();
-    $(".Ccss p").toggle();
+    $(".Ccss p").fadeToggle(1000);
   });
 
 

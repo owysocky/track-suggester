@@ -1,6 +1,11 @@
 .jumbotron {
   text-align: center;
 }
+
+h2 {
+  text-align: center;
+}
+
 .hiddenP p {
   display: none;
 }
@@ -15,7 +20,6 @@
 #city {
   margin-bottom: 5%;
 }
-
 #experience {
   margin-bottom: 5%;
 }

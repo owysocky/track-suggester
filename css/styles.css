@@ -20,6 +20,19 @@
   margin-bottom: 5%;
 }
 
+.experienceY{
+  display: none;
+}
+.experienceN{
+  display: none;
+}
+.cityP{
+  display: none;
+}
+.cityS{
+  display: none;
+}
+
 .btn {
   margin: 3%;
 }

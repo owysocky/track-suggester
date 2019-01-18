@@ -68,7 +68,7 @@
           <input id="name" class="form-control" type="text">
         </div>
 
-        <p><strong>Where would you like to dtudy?</strong></p>
+        <p><strong>Where would you like to study?</strong></p>
         <select class="form-control" id="city">
           <option>Seattle</option>
           <option>Portland</option>
@@ -77,10 +77,10 @@
 
         <p><strong>Do you have any coding experience?</strong></p>
         <select class="form-control" id="experience">
-          <option>I have a degree</option>
-          <option>I have attendent some classes</option>
-          <option>I have learnt programming on my own</option>
-          <option>I don't have any experience, but I'd love to learn how to program!</option>
+          <option value="yes">I have a degree</option>
+          <option value="yes">I have attendent some classes</option>
+          <option value="yes">I have learnt programming on my own</option>
+          <option value="no">I don't have any experience, but I'd love to learn how to program!</option>
         </select>
 
         <p><strong>What are you interested in developing?</strong></p>
@@ -129,7 +129,7 @@
 <!-- RESULTS -->
       <div class="well" id="result">
         <h2><span class="name"></span>, let's see what your results are!</h2>
-        <p><span class="experience"></span></p> and you want to take your classes in <span class="city"></span>.
+        <p><span class="experienceY">We found out you have some experience</span><span class="experienceN">We found out you are striving to learn how to program</span> and you want to take your classes in <span class="cityS">Seattle</span><span class="cityP">Portland</span>.</p>
 
         <div id="resultCss">
           <p>So far the best match for you will be <strong>CSS and Design</strong>. Epicodus offers full-time courses. You will start with Introduction to Programming, that includes an advanced JavaScript course, as well as two language-specific courses — four five-week sessions in total. In addition, you will complete two weeks of job and internship prep and finish your studies with a five-week internship.</p>

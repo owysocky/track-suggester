@@ -7,10 +7,20 @@ $(document).ready(function() {
   var theEnd = $("input:radio[name=end]:checked").val();
   var theLanguage = $("input:radio[name=language]:checked").val();
 
+  $(".name").text(theName);
+  if(theCity === "Seattle"){
+    $(".cityS").show();
+  } else {
+    $(".cityP").show();
+  }
+  if(theExperience === "yes"){
+    $(".experienceY").show();
+  } else {
+    $(".experienceN").show();
+  }
+
   if(theName){
-
     if(theEnd === "backEnd"){
-
       if(theLanguage === "cSharp"){
         $("#result").show();
         $("#resultCSharp").show();
@@ -24,14 +34,10 @@ $(document).ready(function() {
         $("#result").show();
         $("#resultRuby").show();
       }
-
-
     } else {
       $("#result").show();
       $("#resultCss").show();
-
     }
-
   } else {
     alert("Please enter your name.")
   }

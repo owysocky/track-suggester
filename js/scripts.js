@@ -49,9 +49,10 @@ $(document).ready(function() {
 
 
   $(".label").click(function(){
+    $("#seeResult").hide();
     $(".label").toggle();
-    $(".seeResult").toggle();
-    $(".hiddenUl").hide();
+    $("#seeResult").toggle();
+
   });
 
   $(".pFrontEnd").click(function(){

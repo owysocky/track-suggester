@@ -15,6 +15,9 @@ background-color: #f1fcc7;
 h2 {
   text-align: center;
 }
+h3 {
+  text-align: center;
+}
 
 .hiddenP p {
   display: none;
@@ -70,7 +73,7 @@ h2 {
   display: none;
 }
 
-.seeResult {
+#seeResult {
   display: none;
 }
 .lable {

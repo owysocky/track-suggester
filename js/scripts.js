@@ -4,37 +4,41 @@ alert("sUn");
   var theName = $("input#name").val();
   var theCity = $("#city").val();
   var theExperience = $("#experience").val();
+  var theEnd = $("input:radio[name=end]:checked").val();
+  var theLanguage = $("input:radio[name=language]:checked").val();
+
 alert(theName);
 alert(theCity);
 alert(theExperience);
+alert(theEnd);
+alert(theLanguage);
 
   event.preventDefault();
   });
 
-  $(".frontEnd").click(function(){
-    $("").hide();
-    $(".frontEnd h2").toggle();
-    $(".frontEnd p").toggle();
+  $(".pFrontEnd").click(function(){
+    $(".pFrontEnd h2").toggle();
+    $(".pFrontEnd p").toggle();
   });
-  $(".cSharp").click(function(){
-    $(".cSharp h2").toggle();
-    $(".cSharp p").toggle();
+  $(".pCSharp").click(function(){
+    $(".pCSharp h2").toggle();
+    $(".pCSharp p").toggle();
   });
-  $(".java").click(function(){
-    $(".java h2").toggle();
-    $(".java p").toggle();
+  $(".pJava").click(function(){
+    $(".pJava h2").toggle();
+    $(".pJava p").toggle();
   });
-  $(".php").click(function(){
-    $(".php h2").toggle();
-    $(".php p").toggle();
+  $(".pPhp").click(function(){
+    $(".pPhp h2").toggle();
+    $(".pPhp p").toggle();
   });
-  $(".rubby").click(function(){
-    $(".rubby h2").toggle();
-    $(".rubby p").toggle();
+  $(".pRubby").click(function(){
+    $(".pRubby h2").toggle();
+    $(".pRubby p").toggle();
   });
-  $(".css").click(function(){
-    $(".css h2").toggle();
-    $(".css p").toggle();
+  $(".Ccss").click(function(){
+    $(".Ccss h2").toggle();
+    $(".Ccss p").toggle();
   });
 
 alert("sUn");

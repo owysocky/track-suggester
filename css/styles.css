@@ -8,3 +8,11 @@ p {
   display: -ms-flexbox;
   display: flex;
 }
+
+#city {
+  margin-bottom: 10%;
+}
+
+#experience {
+  margin-bottom: 10%;
+}

@@ -71,8 +71,8 @@ $(document).ready(function() {
   $(".pRuby").click(function(){
     $(".pRuby p").fadeToggle(1000);
   });
-  $(".Ccss").click(function(){
-    $(".Ccss p").fadeToggle(1000);
+  $(".pCss").click(function(){
+    $(".pCss p").fadeToggle(1000);
   });
 
 });

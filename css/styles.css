@@ -1,8 +1,7 @@
 .jumbotron {
   text-align: center;
 }
-/* .hiddenP  */
-p {
+.hiddenP p {
   display: none;
 }
 
@@ -26,5 +25,20 @@ p {
 }
 
 #result {
+  display: none;
+}
+#resultCss {
+  display: none;
+}
+#resultJava {
+  display: none;
+}
+#resultCSharp {
+  display: none;
+}
+#resultRuby {
+  display: none;
+}
+#resultPhp {
   display: none;
 }

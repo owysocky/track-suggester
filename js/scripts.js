@@ -7,11 +7,34 @@ $(document).ready(function() {
   var theEnd = $("input:radio[name=end]:checked").val();
   var theLanguage = $("input:radio[name=language]:checked").val();
 
-alert(theName);
-alert(theCity);
-alert(theExperience);
-alert(theEnd);
-alert(theLanguage);
+  if(theName){
+
+    if(theEnd === "backEnd"){
+
+      if(theLanguage === "cSharp"){
+        $("#result").show();
+        $("#resultCSharp").show();
+      } else if (theLanguage === "java"){
+        $("#result").show();
+        $("#resultJava").show();
+      } else if (theLanguage === "php"){
+        $("#result").show();
+        $("#resultPhp").show();
+      } else if (theLanguage === "ruby"){
+        $("#result").show();
+        $("#resultRuby").show();
+      }
+
+
+    } else {
+      $("#result").show();
+      $("#resultCss").show();
+
+    }
+
+  } else {
+    alert("Please enter your name.")
+  }
 
 
 
@@ -34,9 +57,9 @@ alert(theLanguage);
     $(".pPhp h2").toggle();
     $(".pPhp p").toggle();
   });
-  $(".pRubby").click(function(){
-    $(".pRubby h2").toggle();
-    $(".pRubby p").toggle();
+  $(".pRuby").click(function(){
+    $(".pRuby h2").toggle();
+    $(".pRuby p").toggle();
   });
   $(".Ccss").click(function(){
     $(".Ccss h2").toggle();

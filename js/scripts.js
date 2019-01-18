@@ -7,7 +7,7 @@ $(document).ready(function() {
   var theEnd = $("input:radio[name=end]:checked").val();
   var theLanguage = $("input:radio[name=language]:checked").val();
 
-  $(".name").text(theName);
+  $(".name").text(theName.charAt(0).toUpperCase()+theName.slice(1));
   if(theCity === "Seattle"){
     $(".cityS").show();
   } else {
@@ -45,6 +45,11 @@ $(document).ready(function() {
 
 
   event.preventDefault();
+  });
+
+  $(".label").click(function(){
+    $(".label").toggle();
+    $(".seeResult").toggle();
   });
 
   $(".pFrontEnd").click(function(){

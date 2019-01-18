@@ -47,9 +47,11 @@ $(document).ready(function() {
   event.preventDefault();
   });
 
+
   $(".label").click(function(){
     $(".label").toggle();
     $(".seeResult").toggle();
+    $(".hiddenUl").hide();
   });
 
   $(".pFrontEnd").click(function(){

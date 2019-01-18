@@ -22,39 +22,24 @@ $(document).ready(function() {
   if(theName){
     if(theEnd === "backEnd"){
       if(theLanguage === "cSharp"){
-        $("#resultCss").hide();
-        $("#resultRuby").hide();
-        $("#resultPhp").hide();
-        $("#resultJava").hide();
+        $("#result").hide();
         $("#result").show();
         $("#resultCSharp").show();
       } else if (theLanguage === "java"){
-        $("#resultCss").hide();
-        $("#resultRuby").hide();
-        $("#resultPhp").hide();
-        $("#resultCSharp").hide();
+        $("#result").hide();
         $("#result").show();
         $("#resultJava").show();
       } else if (theLanguage === "php"){
-        $("#resultCss").hide();
-        $("#resultRuby").hide();
-        $("#resultJava").hide();
-        $("#resultCSharp").hide();
+        $("#result").hide();
         $("#result").show();
         $("#resultPhp").show();
       } else if (theLanguage === "ruby"){
-        $("#resultCss").hide();
-        $("#resultPhp").hide();
-        $("#resultJava").hide();
-        $("#resultCSharp").hide();
+        $("#result").hide();
         $("#result").show();
         $("#resultRuby").show();
       }
     } else {
-      $("#resultRuby").hide();
-      $("#resultPhp").hide();
-      $("#resultJava").hide();
-      $("#resultCSharp").hide();
+      $("#result").hide();
       $("#result").show();
       $("#resultCss").show();
     }

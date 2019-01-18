@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event){
-alert("sUn");
+
   var theName = $("input#name").val();
   var theCity = $("#city").val();
   var theExperience = $("#experience").val();
@@ -12,6 +12,8 @@ alert(theCity);
 alert(theExperience);
 alert(theEnd);
 alert(theLanguage);
+
+
 
   event.preventDefault();
   });

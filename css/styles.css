@@ -1,3 +1,6 @@
+.jumbotron {
+  text-align: center;
+}
 .well p {
   display: none;
 }
@@ -10,9 +13,13 @@
 }
 
 #city {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 #experience {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+.btn {
+  margin: 3%;
 }

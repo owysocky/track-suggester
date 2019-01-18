@@ -1,7 +1,8 @@
 .jumbotron {
   text-align: center;
 }
-.well p {
+/* .hiddenP  */
+p {
   display: none;
 }
 
@@ -22,4 +23,8 @@
 
 .btn {
   margin: 3%;
+}
+
+#result {
+  display: none;
 }

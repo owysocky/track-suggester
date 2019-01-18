@@ -43,7 +43,7 @@ alert(theLanguage);
     $(".Ccss p").toggle();
   });
 
-alert("sUn");
+
 
 
 

@@ -61,9 +61,6 @@ $(document).ready(function() {
   } else {
     alert("Please enter your name.")
   }
-
-
-
   event.preventDefault();
   });
 
@@ -92,15 +89,5 @@ $(document).ready(function() {
   $(".Ccss").click(function(){
     $(".Ccss p").fadeToggle(1000);
   });
-
-
-
-
-
-
-
-
-
-
 
 });
